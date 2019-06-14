@@ -1597,8 +1597,8 @@
 /* Type */
 
 	body {
-		background-color: #0f0f0f;
-		color: #666;
+		background-color: #E3EAE3;
+		color: #040404;
 	}
 
 	body, input, select, textarea {
@@ -1654,12 +1654,12 @@
 		color: #fff;
 	}
 
-		a:hover {
+		a: {
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #484848;
+		color: #EDF4ED;
 		font-weight: 700;
 	}
 
@@ -1672,14 +1672,14 @@
 	}
 
 	h1, h2, h4, h5, h6 {
-		color: #484848;
+		color: #EDF4ED;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
 	}
 	h2{
-		color: #fff;
+		color: #333333;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1687,7 +1687,7 @@
 	}
 	h3 {
 		text-decoration: underline;
-		color: #484848;
+		color: #040404;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1825,9 +1825,9 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #323037;
+		background-color: #E3EAE3;
 		border-radius: 4px;
-		color: #ffffff !important;
+		color: #040404 !important;
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
@@ -1846,7 +1846,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #3e3c45;
+			background-color: #666666;
 		}
 
 		input[type="submit"]:active,
@@ -1926,7 +1926,7 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-			color: #484848 !important;
+			color: #EDF4ED !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -1950,7 +1950,7 @@
 			input[type="button"].alt.icon:before,
 			button.alt.icon:before,
 			.button.alt.icon:before {
-				color: #aaa;
+				color: #040404;
 			}
 
 		input[type="submit"].special,
@@ -2092,7 +2092,7 @@
 	}
 
 	label {
-		color: #484848;
+		color: #EDF4ED;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -2238,9 +2238,9 @@
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			content: '\f00c';
-			background: #323037;
-			border-color: #323037;
-			color: #ffffff;
+			background: #EDF4ED;
+			border-color: #EDF4ED;
+			color: #040404;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2259,27 +2259,27 @@
 
 	::-webkit-input-placeholder {
 		opacity: 1.0;
-		color: #aaa !important;
+		color: #040404 !important;
 	}
 
 	:-moz-placeholder {
 		opacity: 1.0;
-		color: #aaa !important;
+		color: #040404 !important;
 	}
 
 	::-moz-placeholder {
 		opacity: 1.0;
-		color: #aaa !important;
+		color: #040404 !important;
 	}
 
 	:-ms-input-placeholder {
 		opacity: 1.0;
-		color: #aaa !important;
+		color: #040404 !important;
 	}
 
 	.formerize-placeholder {
 		opacity: 1.0;
-		color: #aaa !important;
+		color: #040404 !important;
 	}
 
 /* Icon */
@@ -2366,7 +2366,7 @@
 			}
 
 			.image.captioned h3 {
-				background-color: #0f0f0f;
+				background-color: #E3EAE3;
 				box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
 				display: block;
 				padding: 2em 1em;
@@ -2574,7 +2574,7 @@
 	}
 
 	header p {
-		color: #aaa;
+		color: #040404;
 		position: relative;
 		margin: 0 0 1.5em 0;
 		text-transform: uppercase;
@@ -2689,7 +2689,7 @@
 		}
 
 		table th {
-			color: #484848;
+			color: #666;
 			font-size: 0.9em;
 			font-weight: 700;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2746,12 +2746,12 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #191919;
+			background-color: #EDF4ED;
 		}
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/newOverlay.png"),url("../../images/banner.jpg");
+			background-image: url("../../images/banner.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -2765,6 +2765,9 @@
 				}
 
 				@media screen and (max-width: 1280px) {
+					.wrapper.style3 {
+						background-attachment: scroll;
+					}
 
 					.wrapper.style3 header.major {
 						margin-bottom: 2em;
@@ -2799,9 +2802,9 @@
 /* Header */
 
 	#header {
-		background-color: #040404;
+		background-color: #E8EFE8;
 		box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.05);
-		color: #484848;
+		color: #040404;
 		cursor: default;
 		font-size: 1.25em;
 		height: 2.7em;
@@ -2813,10 +2816,11 @@
 		width: 100%;
 		z-index: 10000;
 		z-index: 10001;
+		opacity: 0.95;
 	}
 
 		#header h1 {
-			color: #fff;
+			color: #040404;
 			font-weight: 400;
 			height: inherit;
 			left: 1.25em;
@@ -2831,12 +2835,12 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			color: #fff;
+			color: #040404;
 			display: inline-block;
 			text-decoration: none;
 		}
 		#header h1:hover {
-			color: #484848;
+			color: #8c8c8c;
 		}
 
 		#header nav {
@@ -2866,13 +2870,13 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #fff;
+						color: #040404;
 						display: inline-block;
 						text-decoration: none;
 					}
 
 						#header nav ul li a:hover {
-							color: #484848;
+							color: #8c8c8c;
 						}
 
 					#header nav ul li:first-child {
@@ -2953,11 +2957,9 @@
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		height: 100%;
 		left: 0;
 		position: absolute;
 		top: 0;
-		width: 100%;
 		display: none;
 	}
 
@@ -2979,9 +2981,9 @@
 		}
 
 		.navPanelToggle *:before {
-			background: rgba(144, 144, 144, 0.65);
+			background: rgba(237, 244, 237, 0.65);
 			border-radius: 4px;
-			color: #fff;
+			color: #040404;
 			display: block;
 			font-size: 16px;
 			height: 2.25em;
@@ -3008,8 +3010,8 @@
 		position: fixed;
 		left: 0;
 		top: 0;
-		background: #222;
-		color: #fff;
+		background: #EDF4ED;
+		color: #404040;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -3033,8 +3035,8 @@
 
 				#navPanel ul li a:not(.button),
 				#navPanel ul li span:not(.button) {
-					border-top: solid 1px #555;
-					color: #fff;
+					border-top: solid 1px #666;
+					color: #404040;
 					display: block;
 					padding: 0.75em 0;
 					text-decoration: none;
@@ -3052,7 +3054,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #484848;
+			color: #404040;
 			cursor: pointer;
 			display: block;
 			height: 4em;
@@ -3087,10 +3089,14 @@
 			}
 
 			#navPanel .close:hover {
-				color: inherit;
+				color: #040404;
 			}
 
 			@media screen and (max-width: 736px) {
+				.navPanelToggle {
+					width: 5em;
+					height: 4em;
+				}
 
 				#navPanel .close {
 					height: 4em;
@@ -3117,7 +3123,7 @@
 	#banner {
 		padding: 16em 0 14em 0;
 		background-attachment: fixed;
-		background-image: url("images/newOverlay.png"),url("../../images/banner.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3148,7 +3154,7 @@
 		}
 
 		#banner p {
-			color: #aaa;
+			color: #EDF4ED;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
@@ -3159,6 +3165,7 @@
 
 			#banner {
 				padding: 14em 0 11em 0;
+				background-attachment: scroll;
 			}
 
 				#banner h2 {
@@ -3171,6 +3178,7 @@
 
 			#banner {
 				padding: 9em 0 7em 0;
+				background-attachment: scroll;
 			}
 
 		}
@@ -3178,7 +3186,8 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				padding: 4em 2em 4em 2em;
+				background-attachment: scroll;
 			}
 
 				#banner br {
@@ -3198,7 +3207,8 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 0em 4em 4em 2em;
+				padding: 0em 2em 2em 2em;
+				background-attachment: scroll;
 			}
 
 		}
@@ -3222,8 +3232,8 @@
 
 	#footer {
 		padding: 8em 0 6em 0;
-		background: #191919;
-		color: #aaa;
+		background: #EDF4ED;
+		color: #040404;
 		text-align: center;
 	}
 
@@ -3232,12 +3242,12 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			color: #aaa;
+			color: #040404;
 			text-decoration: none;
 		}
 
-			#footer a:active, #footer a:hover {
-				color: #666;
+			#footer a:active, #footer a: {
+				color: #040404;
 			}
 
 		#footer .icons {
@@ -3315,8 +3325,8 @@
 
 		#footerNew {
 
-			background: #191919;
-			color: #aaa;
+			background: #EDF4ED;
+			color: #040404;
 			text-align: center;
 		}
 
@@ -3329,11 +3339,11 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			color: #aaa;
+			color: #040404;
 			text-decoration: none;
 		}
 
-			#footerNew a:active, #footerNew a:hover {
+			#footerNew a:active, #footerNew a: {
 				color: #666;
 			}
 
