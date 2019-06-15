@@ -3176,6 +3176,7 @@
 
 		@media screen and (max-width: 980px) {
 
+
 			#banner {
 				padding: 9em 0 7em 0;
 				background-attachment: scroll;
@@ -3205,10 +3206,26 @@
 		}
 
 		@media screen and (max-width: 480px) {
+			#banner .avatar {
+				display: block;
+			}
+
+				#banner .avatar img {
+					border-radius: 100%;
+					width: 10em;
+					height: 10em;
+					padding: 1em;
+				}
 
 			#banner {
 				padding: 0em 2em 2em 2em;
 				background-attachment: scroll;
+			}
+			#banner h2 {
+				font-size: 1.25em;
+			}
+			#banner p {
+				font-size: 1em;
 			}
 
 		}
