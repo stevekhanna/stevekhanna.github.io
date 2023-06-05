@@ -1,2 +1,2 @@
-<a href="https://stevekhanna.github.io"><h1>SteveKhanna.github.io</h1></a>
+[Click me](https://stevekhanna.github.io)
 Website describing myself.
