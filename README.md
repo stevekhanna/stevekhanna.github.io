@@ -1,3 +1,2 @@
-<a href="https://pages.cpsc.ucalgary.ca/~steve.khanna"><h1>Portfolio Website</h1></a>
+<a href="https://stevekhanna.github.io"><h1>SteveKhanna.github.io</h1></a>
 Website describing myself.
-Made using a template from Templated
